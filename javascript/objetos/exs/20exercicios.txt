@@ -1,0 +1,28 @@
+1. Crie uma variável numérica e exiba seu valor no console. ¬¬
+2. Crie uma variável string e exiba seu valor no console. ¬¬
+3. Crie duas variáveis numéricas e faça uma operação matemática com elas (como adição, subtração, multiplicação ou divisão). ¬¬
+4. Crie uma função que exiba uma mensagem de alerta na tela. ¬¬
+5. Crie uma função que solicite ao usuário que digite um número e exiba-o no console.¬¬
+6. Crie uma estrutura condicional que exiba uma mensagem de acordo com um valor booleano.(estrutura condicional é geralmente construída com if else.)
+7. Crie uma estrutura de repetição que exiba o valor de uma variável numérica a cada iteração.
+8. Crie uma função que receba dois parâmetros numéricos e retorne o resultado de uma operação matemática (como adição, subtração, multiplicação ou divisão).
+9. Crie um array com vários elementos e exiba cada um no console.
+10. Crie um objeto com algumas propriedades e exiba uma delas no console.
+11. Crie uma função que receba um array como parâmetro e exiba cada um dos elementos no console.
+12. Crie uma função que receba um objeto como parâmetro e exiba uma de suas propriedades no console.
+13. Crie uma estrutura condicional que verifique se um número é par ou ímpar e exiba uma mensagem de acordo.
+14. Crie uma estrutura de repetição que exiba os números de 1 a 10 no console.
+15. Crie uma função que receba um número como parâmetro e retorne se ele é positivo, negativo ou zero.
+16. Crie um array de números e use uma estrutura de repetição para somar todos eles.
+17. Crie uma função que receba dois arrays como parâmetros e retorne um novo array com os elementos dos dois primeiros arrays intercalados.
+18. Crie uma função que receba um objeto como parâmetro e exiba todas as suas propriedades e valores no console.
+19. Crie uma estrutura condicional que verifique se uma string contém uma determinada palavra e exiba uma mensagem de acordo.
+20. Crie uma função que receba uma string como parâmetro e retorne a mesma string em maiúsculas.
+
+Prática de construção de objetos: Neste exercício, você terá mais prática na construção de objetos JavaScript personalizados. Você escreverá uma demonstração clássica de “bolas saltitantes”, para mostrar o quão úteis os objetos podem ser em JavaScript1.
+
+Exercícios Básicos de JavaScript: Este site propõe alguns exercícios básicos de JavaScript. Um dos exercícios é escrever um programa que pede o raio de um círculo e, em seguida, exibe o perímetro e a área do círculo2.
+
+Lista de 20 exercícios para praticar Javascript: Este repositório no GitHub propõe uma lista de 20 exercícios para praticar JavaScript, incluindo exercícios com objetos3.
+
+Exercício Fácil: Criando e usando um Objeto: Este é um exercício fácil para ajudar os que estão iniciando a usar e entender melhor objetos e como montá-los4.

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-slide{
+    display: flex;
+    /* a propriedade justify-content do CSS define como o navegador distribui espaço entre 
+    e ao redor dos itens de conteúdo ao longo do eixo principal de um contêiner flexível, e o 
+    eixo inline de um contêiner de grade. Resto no Bing. */
+    justify-content: space-between;
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    margin: 20vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.452);
+}
+
+.container-items{
+    position: absolute;
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    overflow: hidden; /* Para aparecer só o que está dentro do container. */
+ 
+}
+
+.item{
+    width: 50vw;
+    height: 50vh;
+    transition: all 1s;
+}
+
+.item:first-child{
+    margin-left: -100%;
+}
+
+.item img{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.action-button{
+    transition: all 1s;
+    font: bold 30px sans-serif;
+    /* O z-index é uma propriedade do CSS que especifica a ordem de sobreposição dos elementos na tela. O eixo Z é responsável pelo cálculo e posicionamento da profundidade de um determinado elemento em relação à tela, se estará mais afastado ou mais próximo. Para que essa propriedade tenha efeito, o elemento precisa ter a propriedade position definida com o valor diferente de static, que é seu valor de posicionamento padrão. Ou seja, o elemento deve estar com sua position definida com fixed, sticky, relatice ou absolute. Valores negativos para um posicionamento mais profundo e e valores positivos vai ser mais próximo da tela.
+    ↓↓ */
+    z-index:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    color: #00000000;/* Cor transparente */
+    /* A propriedade user-select do CSS controla se o usuário pode selecionar o texto. No caso do none, o texto do elemento e seus sub-elementos não é selecionável. Lembre-se de que a propriedade user-select não tem efeito no conteúdo carregado como parte da interface do usuário de um navegador. */
+    user-select: none;
+}
+
+.action-button:hover{
+        border-radius: 10px;
+        color: white;
+        background-color:#00000038;
+        cursor: pointer; /* Trocando o cursor quando o mouse passar por cima. */
+        transition: all 1s;
+}

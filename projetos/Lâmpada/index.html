@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script.js"></script>
+    <title>Lâmpada.</title>
+  </head>
+  <body>
+    <header>
+      <h1>VANILLA JS</h1>
+    </header>
+    <main>
+      <section>
+        <div id="imagem">
+          <img
+            id="img"
+            onmouseover="secundaria()"
+            onmouseout="original()"
+            ondblclick="double()"
+            src="images/desligada.jpg"
+            alt="desligada"
+          />
+        </div>
+        <div id="form">
+          <input
+            type="button"
+            value="Ligar"
+            class="form2"
+            onclick="ligar()"
+            id="botaoLigar"
+          />
+          <input
+            type="button"
+            value="Desligar"
+            class="form2"
+            onclick="desligar()"
+            id="botaoDesligar"
+          /><br />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
