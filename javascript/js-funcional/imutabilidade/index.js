@@ -104,6 +104,17 @@ objeto original.
 Em resumo, a principal diferença entre cópia rasa e cópia profunda é que a cópia rasa copia as 
 referências aos objetos, enquanto a cópia profunda copia os próprios objetos.
 
+Programação Imperativa: É o mais antigo e mais utilizado até hoje. Ele é baseado na ideia de que um 
+programa é muma sequência de instruções executadas pelo computador em ordem, uma após a outra.
+
+Programação Orientada a Objetos(OOP): Este paradigma organiza a software em torno de dados, ou objetos,
+e não de funções e lógicas.
+
+Programação Funcional: Este paradigma evita o estado compartilhado, dados mutáveis e efeitos 
+colaterais, o que torna ideal para sistemas altamente concorrentes. 
+
+Programação Lógica: Este paradigma é usado principalmente em inteligência artificial. Em vez de ins
+truções, o programador define uma série de fatos e regras.
  */
 
 
