@@ -3,19 +3,32 @@ const user = {
   name: 'Jhon',
   age: 18,
   addresses: [
-    'A',
-    'B'
+    'Av. paulista',
+    'rua nossa senhora das dores'
   ]
 };
+
 
 if (user.age >= 18){
   user.isAdult = true;
 };
 
+const user2 = {
+  ...user,
+  name: 'idk',
+  age: 6
+}
+
+if(user2.age >= 18){
+  user.isAdult = true;
+};
+
+
 
 user.addresses.push('c')
 
 console.log(user);
+console.log(user2);
 
 
 /*
