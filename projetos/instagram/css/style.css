@@ -21,7 +21,12 @@ body{
 
 a{
     display: block;
-    margin-bottom: 20px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+#afastado{
+    margin-top: 120px;
 }
 
 #logo{
@@ -30,5 +35,5 @@ a{
     font-size: 2em;
     position: absolute;
     bottom: 90%;
-    right: 91%;
+    right: 91%; 
 }
