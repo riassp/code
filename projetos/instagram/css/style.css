@@ -37,3 +37,7 @@ a{
     bottom: 90%;
     right: 91%; 
 }
+
+#pesquisar{
+    display: inline;
+}
