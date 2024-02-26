@@ -28,7 +28,7 @@ body{
     top: 5%;
     left: 1;
     transform: translateY(-5%);
-    font-family: 'Billabong';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 2em;
 }
