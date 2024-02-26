@@ -1,6 +1,6 @@
 const pessoas = [
-    { nome: 'Joao', idade: 20 },
-    {nome: 'Pedro', idade: 18 },
+    {nome: 'Joao',  idade: 20 },
+    {nome: 'Pedro', idade: 20 },
     {nome: 'Maria', idade: 22 },
 ];
 
