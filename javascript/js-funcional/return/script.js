@@ -1,3 +1,13 @@
+/* 
+
+O early return serve para deixar o código mais limpo além de que ele tem o conceito de que se 
+você tem um valor que pode ser retornado, retorne ele e não espere até o final para retorna-lo.
+No function foi tirado o let tipo e foi retornado o valor na hora, else if e mostrar o que já vai no 
+automático(idade >= 1).
+
+*/
+
+
 const retornaTipo = (idade) => {
     if(idade < 1){
         return 'bebê';
@@ -13,18 +23,7 @@ const retornaTipo = (idade) => {
 
 console.log(retornaTipo(14));
 
-/* 
-
-O early return serve para deixar o código mais limpo além de que ele tem o conceito de que se 
-você tem um valor que pode ser retornado, retorne ele e não espere até o final para retorna-lo.
-No function foi tirado o let tipo e foi retornado o valor na hora, else if e mostrar o que já vai no 
-automático(idade >= 1).
-
-*/
-
-
 /*
-
     Como era a function antes do early return.
 
 const retornaTipo = (idade) => {
@@ -42,5 +41,4 @@ const retornaTipo = (idade) => {
 }
 
 console.log(retornarTipo(10));
-
  */
