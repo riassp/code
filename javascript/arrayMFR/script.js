@@ -27,7 +27,7 @@ console.log(soma)
 
 
 
-/* My conclusion => .map vai procurar somente aquilo que você pediu.
+/* Minha conclusão => .map vai procurar somente aquilo que você pediu.
 
     .filter vai pegar aquilo que você pediu mas vai mostrar todas as infos além daquilo, você pode 
     usar o .map depois já que é outro array ai botar o que você quer.
