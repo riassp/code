@@ -22,7 +22,7 @@ html{
 
 
 div#espaco{
-    height: 30vh;
+    height: 20vh;
  }
  
 img#logo{
@@ -66,4 +66,15 @@ p#textob{
     font-family: 'Bebas', sans-serif;
     font-size: 25px;
     color: rgb(0, 107, 0);
+}
+
+#social{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#social img{
+    height:80px;
+    width:80px;
 }
