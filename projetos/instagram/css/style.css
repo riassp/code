@@ -80,7 +80,7 @@ body{
 }
 
 #lateralLinha{
-    height: 100vh;
+    height: 162vh;
     width: 240px;
     border-right: 1px solid rgba(255, 255, 255, 0.171);
 }
@@ -93,8 +93,10 @@ body{
 #fotoPerfilLateral{
     width: 25px;
     height: 25px;
-    background-color: white;
+    background-image: url(../fotos/ftRhuan.jpg);
+    background-size: contain;
     border-radius: 50%;
+    border: 2px solid white;
 }
 
 #bola{
@@ -103,7 +105,7 @@ body{
     float: left;
     width: 150px;
     height: 150px;
-    background-color: white;
+    background-image: url(../fotos/ftRhuan.jpg);
     border-radius: 100%;
 }
 
@@ -173,9 +175,16 @@ body{
     left: 27%;
     height: 90px;
     width: 90px;
-    background-color: white;
+    background-image: url(../images/novowow.png);
+    background-repeat: no-repeat;
     border-radius: 50%;
     text-align: center;
+}
+
+#novo > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    font-size: 0.8em;
 }
 
 #fEtexto{
@@ -190,4 +199,66 @@ body{
     margin-left: 25%;
     width: 100vw;
     max-width: 70vw;
+}
+
+.imgPeq{
+    max-width: 12px;
+    max-height: 12px;
+    float: left;
+    display: flex;
+}
+
+#linksSparte{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+    width:100vw;
+    height: auto;
+    text-align: center;
+}
+
+#linksSparte a{
+    text-decoration: none;
+}
+
+.espacoLinks{
+    width: 7vw;
+    margin-right:20px;
+    margin-left: 20px;
+    padding-top:15px;
+    display: inline-block;
+
+}
+
+.espacoLinks > img{
+    margin-top: 3px;
+}
+
+#fdm{
+    margin-left: 30px;
+}
+
+#safe{
+    margin-left: -10px;
+}
+
+#aBorda{
+    border-top: 1px solid white;
+}
+
+.letraC{
+    color: gray;
+}
+
+#imagensUltimato img{
+    text-align: center;
+    width: 309px;
+    height: 309px;
+}
+
+.primeirasImgs{
+    margin-top: 20px;
+}
+
+#ajudanteSparte{
+    margin-left: 20%;
 }
