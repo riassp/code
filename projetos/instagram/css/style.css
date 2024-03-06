@@ -15,24 +15,30 @@ body{
     float: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
-    margin-left: 30px;
-    width: auto;
+    width: 37vh;
+    border-right: 1px solid rgba(255, 255, 255, 0.171);
     height: 100vh;
+}
+
+#Lcenter{
+    width: 15vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#Lcenter a{
+    text-decoration: none;
 }
 
 #principal{
-    width: 100vw;
-    height: 100vh;
-}
-
-#lateral a{
-    text-decoration: none;
+    width: 80vw;
+    float:right;
 }
 
 
 .lateral2{
+    margin-bottom: 30px;
     width: 200px;
-    margin-bottom: 35px;
     display: flex;
     position: relative;
 }
@@ -47,7 +53,7 @@ body{
 
 .lateral2:hover::before{
     background: rgb(34, 34, 34);
-    transform: scale(1.2, 2.3);
+    transform: scale(1.1, 2.1);
     border-radius: 5px;
 }
 
@@ -75,17 +81,36 @@ body{
     max-width: 23px;
 }
 
-#afastado{
-    margin-top: 65px;
+#Pdistance{
+    width: 200px;
+    display: flex;
+    position: relative;
 }
 
-#lateralLinha{
-    height: 162vh;
-    width: 240px;
-    border-right: 1px solid rgba(255, 255, 255, 0.171);
+#Pdistance::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#Pdistance:hover::before{
+    background: rgb(34, 34, 34);
+    transform: scale(1.1, 2.1);
+    border-radius: 5px;
+}
+
+#Pdistance > *{
+    margin-right: 20px;
+}
+
+#afastado{
+    margin-top:43% ;
 }
 
 #espaco{
+    margin: 0 auto;
     width: 120px;
     height: 120px;
 }
@@ -100,8 +125,6 @@ body{
 }
 
 #bola{
-    margin-left: 140px;
-    margin-top: 40px;
     float: left;
     width: 150px;
     height: 150px;
@@ -188,10 +211,7 @@ body{
 }
 
 #fEtexto{
-    margin: auto;
-    width: 1090px;
-    max-width: 1090px;
-    height: 60vh;
+    margin: 0 auto;
 }
 
 #testeLinha{
