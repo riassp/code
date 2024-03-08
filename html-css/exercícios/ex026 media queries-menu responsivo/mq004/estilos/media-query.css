@@ -12,7 +12,7 @@ Grandes telas: acima de 1200px
 
 */
 
-@media print { /* IMPRESSÂO */
+@media print { /* IMPRESSÃO */
 
     *{
         font-family: 'Courier New', Courier, monospace;
