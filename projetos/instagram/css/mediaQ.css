@@ -21,6 +21,11 @@ Grandes telas: acima de 1200px */
         transform: translateY(-6%);
     }
 
+    #logoI:hover{
+        background-color: rgb(22, 22, 22);
+        padding: 20px;
+    }
+
     #lateral{
         width: 75px;
     }
@@ -41,7 +46,7 @@ Grandes telas: acima de 1200px */
     .lateral2{
         margin-bottom: 7px;
         padding-top: 12px;
-        padding-left: 7px;
+        padding-left: 8px;
         padding-right: 5px;
         padding-bottom: 12px;
         width: 30px;

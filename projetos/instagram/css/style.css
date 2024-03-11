@@ -51,6 +51,11 @@ body{
     position: relative;
 }
 
+#teste{
+    margin-bottom: 0px;
+    padding-bottom:5px
+}
+
 .lateral2:hover{
     background-color: rgb(22, 22, 22);
     border-radius: 8px;
@@ -84,9 +89,7 @@ body{
 #fotoPerfilLateral{
     width: 25px;
     height: 25px;
-    background-image: url(../fotos/ftRhuan.jpg);
-    background-size: contain;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 2px solid white;
 }
 
