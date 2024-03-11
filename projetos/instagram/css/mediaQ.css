@@ -7,7 +7,7 @@ Desktop:992px até 1200px
 Grandes telas: acima de 1200px */
 
 
-@media screen and (max-width: 1300px ) {
+@media screen and (max-width: 1280px ) {
 
     .Icons{
         display: none;
@@ -15,6 +15,10 @@ Grandes telas: acima de 1200px */
 
     #logoI{
         display: block;
+        position: absolute;
+        top: 6%;
+        left: 36%;
+        transform: translateY(-6%);
     }
 
     #lateral{
@@ -22,10 +26,27 @@ Grandes telas: acima de 1200px */
     }
 
     #Lcenter{
-        text-align: center;
         margin: 0 auto;
         width: 50%;
+        height: 100vh;
     }
 
+    .logo{
+        position: absolute;
+        top: 6%;
+        left: 35%;
+        transform: translateY(-6%);
+    }
+
+    .lateral2{
+        margin-bottom: 7px;
+        padding-top: 12px;
+        padding-left: 7px;
+        padding-right: 5px;
+        padding-bottom: 12px;
+        width: 30px;
+    }
+    
 }
     
+
