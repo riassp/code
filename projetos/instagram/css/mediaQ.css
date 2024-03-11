@@ -17,13 +17,18 @@ Grandes telas: acima de 1200px */
         display: block;
         position: absolute;
         top: 6%;
-        left: 36%;
+        left: 28%;
         transform: translateY(-6%);
+        width: 30px;
+        padding-top: 12px;
+        padding-left: 8px;
+        padding-right: 10px;
+        padding-bottom: 12px;
     }
 
     #logoI:hover{
+        border-radius: 8px;
         background-color: rgb(22, 22, 22);
-        padding: 20px;
     }
 
     #lateral{
