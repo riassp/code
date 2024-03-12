@@ -94,7 +94,10 @@ body{
 }
 
 #bola{
-    float: left; 
+    position: absolute;
+    float: left;
+    left: 15%;
+    top: 5%; 
     width: 150px;
     height: 150px;
     background-image: url(../fotos/ftRhuan.jpg);
@@ -262,4 +265,8 @@ body{
     transform: translateY(-6%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 1.5em;
+}
+
+#gear{
+    margin-top:10px;
 }
