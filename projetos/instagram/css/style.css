@@ -183,14 +183,14 @@ body{
     max-width: 12px;
     max-height: 12px;
     float: left;
-    display: flex;
 }
 
 #linksSparte{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8em;
-    width: auto;
+    width: 83%;
     height: auto;
+    margin: auto;
     text-align:center;
 }
 
@@ -199,18 +199,13 @@ body{
 }
 
 .espacoLinks{
-    width: 7vw;
+    width: 90px;
     padding-top:15px;
     display: inline-block;
-
 }
 
 .espacoLinks > img{
     margin-top: 3px;
-}
-
-#fdm{
-    margin-left: 30px;
 }
 
 #safe{
@@ -227,16 +222,12 @@ body{
 
 #imagensUltimato img{
     text-align: center;
-    width: 309px;
-    height: 309px;
+    width: 303px;
+    height: 303px;
 }
 
 .primeirasImgs{
     margin-top: 20px;
-}
-
-#ajudanteSparte{
-    margin-left: 20%;
 }
 
 #logoI{
