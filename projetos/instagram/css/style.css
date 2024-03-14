@@ -191,7 +191,12 @@ body{
     width: 83%;
     height: auto;
     margin: auto;
-    text-align:center;
+}
+
+#LinksC{
+    width:30vw;
+    height: auto;
+    margin:auto;
 }
 
 #linksSparte a{
@@ -202,6 +207,7 @@ body{
     width: 90px;
     padding-top:15px;
     display: inline-block;
+    margin-right:40px
 }
 
 .espacoLinks > img{
@@ -213,6 +219,7 @@ body{
 }
 
 #aBorda{
+    padding-top: 15px;
     border-top: 1px solid white;
 }
 
