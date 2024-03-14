@@ -43,7 +43,7 @@ body{
 .lateral2{
     margin-bottom: 7px;
     padding-top: 12px;
-    padding-left: 7px;
+    padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 12px;
     width: 200px;
@@ -182,7 +182,6 @@ body{
 .imgPeq{
     max-width: 12px;
     max-height: 12px;
-    float: left;
 }
 
 #linksSparte{
@@ -201,25 +200,15 @@ body{
 
 #linksSparte a{
     text-decoration: none;
-}
-
-.espacoLinks{
-    width: 90px;
-    padding-top:15px;
     display: inline-block;
-    margin-right:40px
 }
 
-.espacoLinks > img{
-    margin-top: 3px;
-}
-
-#safe{
-    margin-left: -10px;
-}
-
-#aBorda{
+.espacoL{
     padding-top: 15px;
+    margin-right: 60px;
+}
+
+#Borda{
     border-top: 1px solid white;
 }
 
@@ -227,14 +216,16 @@ body{
     color: gray;
 }
 
-#imagensUltimato img{
+#imagensUltimato{
+    padding-top: 18px;
+    width: 81vw;
+    height: auto;
     text-align: center;
-    width: 303px;
-    height: 303px;
 }
 
-.primeirasImgs{
-    margin-top: 20px;
+#imagensUltimato img{
+    width: 303px;
+    height: 303px;
 }
 
 #logoI{
