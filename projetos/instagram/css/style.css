@@ -33,6 +33,7 @@ aside{
 }
 
 main{
+    float:right;
     position: relative;
     height: 100vh;
     width: 82%;
@@ -96,8 +97,6 @@ main{
 }
 
 #bola{
-    margin-left: 7%;
-    margin-top: 4%;
     float: left;
     width: 150px;
     height: 150px;
@@ -176,10 +175,15 @@ main{
 
 #fEtexto{
     margin: 0 auto;
-    height: 60vh;
-    width: 50%;
+    height: 58%;
+    width: 85%;
 }
 
+#tudoCentro{
+    margin: auto;
+    height:100vh;
+    width: 85%;
+}
 .imgPeq{
     max-width: 12px;
     max-height: 12px;
@@ -188,8 +192,8 @@ main{
 #linksSparte{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8em;
-    width: 50vw;
-    border-top: 1px solid white;
+    width: 80vw;
+    border-top: 1px solid rgba(255, 255, 255, 0.137);
     height: auto;
     margin: auto;
 }
