@@ -26,6 +26,7 @@ aside{
     /* width: 210px; */
     height: 100vh;
     margin:auto;
+    position: relative;
 }
 
 #Lcenter a{
@@ -77,10 +78,12 @@ main{
 #afastado{
     position:absolute;
     bottom: 0px;
+    width: 203.69px;
 }
 
 #afastado:hover{
     background-color: rgb(22, 22, 22) ;
+    width: 100%;
 }
 
 #espaco{
@@ -98,6 +101,8 @@ main{
 
 #bola{
     float: left;
+    position: relative;
+    top: 7%;
     width: 150px;
     height: 150px;
     background-image: url(../fotos/ftRhuan.jpg);
@@ -106,8 +111,8 @@ main{
 
 #fulltexto{
     transform: translateY(12%);
-    width: 45vw;
-    height: 40vh;
+    width: 69%;
+    height: 57%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:0 auto;
     float:right;
@@ -161,9 +166,9 @@ main{
 }
 
 #novo{
-    position: absolute;
-    top: 35%;
-    right: 81%;
+    position: relative;
+    top: 60%;
+    right:23%;
     text-align:center;
     text-decoration: none;
 }
@@ -192,10 +197,15 @@ main{
 #linksSparte{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8em;
-    width: 80vw;
+    width: 70vw;
     border-top: 1px solid rgba(255, 255, 255, 0.137);
     height: auto;
     margin: auto;
+}
+
+.primeirasImgs{
+    display: inline;
+    margin-top: 2%;
 }
 
 #LinksC{

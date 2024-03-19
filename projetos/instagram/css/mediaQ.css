@@ -17,7 +17,6 @@ Grandes telas: acima de 1200px */
         display: block;
         position: absolute;
         top: 6%;
-        left: 28%;
         transform: translateY(-6%);
         width: 30px;
         padding-top: 12px;
@@ -55,6 +54,11 @@ Grandes telas: acima de 1200px */
         padding-right: 5px;
         padding-bottom: 12px;
         width: 30px;
+    }
+
+    #afastado{
+        padding-right: 0px;
+        width: 37.5px;
     }
     
 }
