@@ -35,7 +35,7 @@ aside{
     position: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
-    width:17vw;
+    width:17%;
     border-right: 1px solid rgba(255, 255, 255, 0.171);
     height: 100vh;
 }
@@ -56,8 +56,7 @@ main{
     float:right;
     position: relative;
     height: 100vh;
-    width: 82vw;
-    margin: auto;
+    width: 83%;
 }
 
 
@@ -130,12 +129,10 @@ main{
 }
 
 #fulltexto{
-    transform: translateY(12%);
-    width: 69%;
-    height: 57%;
+    transform: translate(16%, 18%);
+    width: auto;
+    height: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin:auto;
-    float:right;
 }
 
 #fulltexto a{
