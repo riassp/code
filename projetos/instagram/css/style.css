@@ -130,8 +130,7 @@ main{
 
 #fulltexto{
     transform: translate(16%, 18%);
-    width: auto;
-    height: auto;
+    min-width: 550px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -199,12 +198,14 @@ main{
     margin: auto;
     height: 58%;
     width: 85%;
+    max-width: 815px;
 }
 
 #tudoCentro{
     margin: auto;
     height: 100vh;
     width: 85%;
+    max-width: 960px;
 }
 .imgPeq{
     max-width: 12px;
@@ -229,6 +230,7 @@ main{
     width:30vw;
     height: auto;
     margin:auto;
+    min-width: 407px;
 }
 
 #linksSparte a{
