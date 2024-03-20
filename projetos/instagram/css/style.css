@@ -4,7 +4,26 @@
     margin: 0;
     padding: 0;
     color: white;
+}
 
+::-webkit-scrollbar{
+    width:11px;
+}
+
+::-webkit-scrollbar-track{
+    background:#222;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 10px;
+    background:#888;
+    border-radius: 100px;
+    border: 1px solid #222;
+}
+
+ ::-webkit-scrollbar-thumb:hover{
+    background:#999;
 }
 
 body{
@@ -16,13 +35,13 @@ aside{
     position: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
-    width:18%;
+    width:17vw;
     border-right: 1px solid rgba(255, 255, 255, 0.171);
     height: 100vh;
 }
 
 #Lcenter{
-    width: 15vw;
+    width: 85%;
     /* width: 210px; */
     height: 100vh;
     margin:auto;
@@ -37,7 +56,7 @@ main{
     float:right;
     position: relative;
     height: 100vh;
-    width: 82%;
+    width: 82vw;
     margin: auto;
 }
 
@@ -102,6 +121,7 @@ main{
 #bola{
     float: left;
     position: relative;
+    margin: auto;
     top: 7%;
     width: 150px;
     height: 150px;
@@ -114,7 +134,7 @@ main{
     width: 69%;
     height: 57%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin:0 auto;
+    margin:auto;
     float:right;
 }
 
@@ -179,14 +199,14 @@ main{
 }
 
 #fEtexto{
-    margin: 0 auto;
+    margin: auto;
     height: 58%;
     width: 85%;
 }
 
 #tudoCentro{
     margin: auto;
-    height:100vh;
+    height: 100vh;
     width: 85%;
 }
 .imgPeq{
@@ -197,7 +217,7 @@ main{
 #linksSparte{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8em;
-    width: 70vw;
+    width: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.137);
     height: auto;
     margin: auto;
@@ -205,7 +225,7 @@ main{
 
 .primeirasImgs{
     display: inline;
-    margin-top: 2%;
+    margin-top: 20px;
 }
 
 #LinksC{
@@ -233,8 +253,19 @@ main{
 }
 
 #imagensUltimato img{
-    width: 303px;
-    height: 303px;
+    width:310px;
+    height:310px;
+}
+
+#imagensUltimato2 img{
+    width: 310px;
+    height: 310px;
+}
+
+#imagensUltimatoM{
+    height: auto;
+    width: 80%;
+    margin: auto;
 }
 
 #logoI{
