@@ -129,8 +129,8 @@ main{
 }
 
 #fulltexto{
-    transform: translate(16%, 18%);
-    min-width: 550px;
+    transform: translate(12%, 18%);
+    min-width: 560px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -183,8 +183,8 @@ main{
 
 #novo{
     position: relative;
-    top: 60%;
-    right:23%;
+    bottom:-16% ;
+    left: -50%;
     text-align:center;
     text-decoration: none;
 }
@@ -198,6 +198,7 @@ main{
     margin: auto;
     height: 58%;
     width: 85%;
+    max-height: 400px;
     max-width: 815px;
 }
 
@@ -205,7 +206,7 @@ main{
     margin: auto;
     height: 100vh;
     width: 85%;
-    max-width: 960px;
+    max-width: 1000px;
 }
 .imgPeq{
     max-width: 12px;
@@ -218,12 +219,10 @@ main{
     width: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.137);
     height: auto;
-    margin: auto;
 }
 
 .primeirasImgs{
     display: inline;
-    margin-top: 20px;
 }
 
 #LinksC{
@@ -231,6 +230,7 @@ main{
     height: auto;
     margin:auto;
     min-width: 407px;
+    margin-bottom: 15px;
 }
 
 #linksSparte a{
@@ -251,20 +251,9 @@ main{
     color: gray;
 }
 
-#imagensUltimato img{
-    width:310px;
-    height:310px;
-}
-
 #imagensUltimato2 img{
-    width: 310px;
-    height: 310px;
-}
-
-#imagensUltimatoM{
+    max-width: 33%;
     height: auto;
-    width: 80%;
-    margin: auto;
 }
 
 #logoI{
