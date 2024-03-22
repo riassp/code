@@ -124,7 +124,7 @@ main{
     top: 7%;
     width: 150px;
     height: 150px;
-    background-image: url(../fotos/ftRhuan.jpg);
+    background-image: url(../fotosRhuan/ftRhuan.jpg);
     border-radius: 100%;
 }
 
@@ -253,4 +253,9 @@ main{
     transform: translateY(-6%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 1.5em;
+}
+
+#imagensRhuan img{
+    max-width: 33%;
+    height: auto;
 }
