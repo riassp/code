@@ -216,19 +216,10 @@ main{
 #linksSparte{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8em;
-    width: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.137);
-    height: auto;
-}
-
-.primeirasImgs{
-    display: inline;
 }
 
 #LinksC{
-    width:30vw;
-    height: auto;
-    margin:auto;
     min-width: 407px;
     margin-bottom: 15px;
 }
@@ -249,11 +240,6 @@ main{
 
 .letraC{
     color: gray;
-}
-
-#imagensUltimato2 img{
-    max-width: 33%;
-    height: auto;
 }
 
 #logoI{
