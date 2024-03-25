@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+::-webkit-scrollbar{
+    width:11px;
+}
+
+::-webkit-scrollbar-track{
+    background:#222;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 10px;
+    background:#888;
+    border-radius: 100px;
+    border: 1px solid #222;
+}
+
+ ::-webkit-scrollbar-thumb:hover{
+    background:#999;
+}
+
+body{
+    background-color:black;
+}
+
+aside{
+    float:left;
+    position: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width:17%;
+    border-right: 1px solid rgba(255, 255, 255, 0.171);
+    height: 100vh;
+}
+
+#Lcenter{
+    width: 85%;
+    /* width: 210px; */
+    height: 100vh;
+    margin:auto;
+    position: relative;
+}
+
+#Lcenter a{
+    text-decoration: none;
+}
+
+main{
+    height: 100vh;
+    width: 83%;
+    overflow-y: auto;
+    float:right;
+    position: relative;
+}
+
+
+.lateral2{
+    margin-bottom: 7px;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-bottom: 12px;
+    display: flex;
+}
+
+#CHnosize{
+    margin-bottom: 0px;
+    padding-bottom:5px
+}
+
+.lateral2:hover{
+    background-color: rgb(22, 22, 22);
+    border-radius: 8px;
+}
+
+.lateral2:hover img{
+    transform: scale(1.1);
+}
+
+
+.lateral2 > *{
+    margin-right: 15px;
+}
+
+
+.imagem{
+    max-height:25px;
+    max-width: 25px;
+}
+
+#afastado{
+    max-height: 20px;
+    position:absolute;
+    bottom: 0px;
+    width: 203.69px;
+}
+
+#afastado:hover{
+    background-color: rgb(22, 22, 22) ;
+    width: 100%;
+}
+
+#espaco{
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+}
+
+#fotoPerfilLateral{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+#bola{
+    float: left;
+    position: relative;
+    margin: auto;
+    top: 7%;
+    width: 150px;
+    height: 150px;
+    background-image: url(../fotosRhuan/ftRhuan.jpg);
+    border-radius: 100%;
+}
+
+#fulltexto{
+    transform: translate(12%, 18%);
+    min-width: 560px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fulltexto a{
+    text-decoration: none;
+}
+
+#nomePerfil{
+    font-size: 1.2em;
+}
+
+#button{
+  margin-left: 20px;
+}
+
+#button2{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.buttons{
+    display:inline-block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.Pbuttons{
+    background-color: rgb(53, 53, 53);
+    border-radius: 6px;
+    padding: 6px 15px;
+}
+
+.Pbuttons:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+.espacoTextos{
+    margin-bottom: 22px;
+}
+
+.testeDisplay{
+    margin-right: 35px;
+    display: inline-block;
+}
+
+#texto3{
+    font-size: 0.9em;
+}
+
+#novo{
+    position: relative;
+    bottom:-18% ;
+    left: -7%;
+    text-align:center;
+    width: 100px;
+    height: 108px;
+    text-decoration: none;
+}
+
+#novo > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+#fEtexto{
+    margin: auto;
+    height: 58%;
+    width: 85%;
+    max-height: 387px;
+    max-width: 600px;
+}
+
+#tudoCentro{
+    margin: auto;
+    height: 100vh;
+    width: 85%;
+    max-width: 800px;
+}
+.imgPeq{
+    max-width: 12px;
+    max-height: 12px;
+}
+
+#linksSparte{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+    border-top: 1px solid rgba(255, 255, 255, 0.137);
+}
+
+#LinksC{
+    min-width: 407px;
+    margin-bottom: 15px;
+}
+
+#linksSparte a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.espacoL{
+    padding-top: 15px;
+    margin-right: 60px;
+}
+
+#Borda{
+    border-top: 1px solid white;
+}
+
+.letraC{
+    color: gray;
+}
+
+#logoI{
+    display:none;
+}
+
+#logoIP{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translateY(-6%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1.5em;
+}
+
+#imagensRhuan{
+    width: auto;
+    height: auto;
+}
+
+#imagensRhuan img{
+    max-width: 33%;
+    height: auto;
+}
