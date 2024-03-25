@@ -53,10 +53,11 @@ aside{
 }
 
 main{
-    float:right;
-    position: relative;
     height: 100vh;
     width: 83%;
+    overflow-y: auto;
+    float:right;
+    position: relative;
 }
 
 
@@ -89,11 +90,12 @@ main{
 
 
 .imagem{
-    max-height:23px;
-    max-width: 23px;
+    max-height:25px;
+    max-width: 25px;
 }
 
 #afastado{
+    max-height: 20px;
     position:absolute;
     bottom: 0px;
     width: 203.69px;
@@ -183,9 +185,11 @@ main{
 
 #novo{
     position: relative;
-    bottom:-16% ;
-    left: -50%;
+    bottom:-18% ;
+    left: -7%;
     text-align:center;
+    width: 100px;
+    height: 108px;
     text-decoration: none;
 }
 
@@ -198,15 +202,15 @@ main{
     margin: auto;
     height: 58%;
     width: 85%;
-    max-height: 400px;
-    max-width: 815px;
+    max-height: 387px;
+    max-width: 600px;
 }
 
 #tudoCentro{
     margin: auto;
     height: 100vh;
     width: 85%;
-    max-width: 1000px;
+    max-width: 800px;
 }
 .imgPeq{
     max-width: 12px;
@@ -253,6 +257,11 @@ main{
     transform: translateY(-6%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 1.5em;
+}
+
+#imagensRhuan{
+    width: auto;
+    height: auto;
 }
 
 #imagensRhuan img{
