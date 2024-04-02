@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+#dropup{
+  position: relative;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#container{
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    display: none; 
+    padding: 6px;
+    min-width: 160px;
+    bottom:36px;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.aSettings{
+    color: white;
+    padding:6px;
+    display: block;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aSettings:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+#buttonC{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 1.2em;
+    padding: 5px 67px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.borderLeF{
+    width: 100%;
+    border-bottom: 5px solid yellow;
+}
