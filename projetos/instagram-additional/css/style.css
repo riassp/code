@@ -268,3 +268,38 @@ main{
     max-width: 33%;
     height: auto;
 }
+
+#dropup{
+  position: relative;
+  display: inline-block;
+}
+
+#contain{
+    background-color:#262626;
+    border-radius: 15px;
+    position: absolute;
+    min-width: 160px;
+    bottom: 0px;
+    z-index: 10;
+    width: 240px;
+    height: 460px;
+}
+
+.aSettings{
+    font-size: 0.9em;
+    color: white;
+    text-align: justify;
+    padding:18px 20px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#borderL{
+    border-top: 5px solid #353535;
+    border-bottom: 5px solid #353535;
+}
+
+#borderF{
+    border-top: 2px solid #353535;
+}

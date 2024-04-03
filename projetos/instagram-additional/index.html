@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mediaQ.css" />
+    <script defer src="script.js"></script>
     <title>Instagram</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
 
 
      <aside>
-      <div id="Lcenter">
+      <nav id="Lcenter">
         <div id="espaco"></div>
         <article>
           <p class="Icons" id="logoIP">Instagram</p>
@@ -87,14 +88,31 @@
           </div>
         </a>
 
-        <a href="#">
+        <nav id="dropup">
+          <section id="contain">
+              <a href="#" class="aSettings">Configurações</a>
+              <a href="#" class="aSettings">Sua atividade</a>
+              <a href="#" class="aSettings">Salvos</a>
+              <a href="#" class="aSettings" onclick="tema()">Alternar exibição</a>
+              <a href="#" class="aSettings">Relatar um problema</a>
+              <article id="borderL">
+                <a href="#" class="aSettings">Threads</a>
+              </article>
+              <a href="#" class="aSettings">Trocar de conta</a>
+              <article id="borderF">
+                <a href="#" class="aSettings">Sair</a>
+              </article>
+          </section>
+        </nav>
+
+        <a href="#" onclick="fall()">               <!--Dropup Menu Click-->
             <div  id="afastado" class="lateral2">
               <img src="images/hamburguerlist.png" alt="3pontos" class="imagem" />
               <p class="Icons">Mais</p>
             </div>
         </a>
 
-      </div>
+      </nav>
     </aside>
 
      <main>
