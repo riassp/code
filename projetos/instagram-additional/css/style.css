@@ -281,25 +281,70 @@ main{
     min-width: 160px;
     bottom: 0px;
     z-index: 10;
-    width: 240px;
-    height: 460px;
+    width: 270px;
+    height: 480px;
+    display: none;
 }
 
 .aSettings{
-    font-size: 0.9em;
     color: white;
     text-align: justify;
-    padding:18px 20px;
     display: block;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #borderL{
+    padding: 10px;
     border-top: 5px solid #353535;
     border-bottom: 5px solid #353535;
 }
 
+#borderL div:hover{
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
+}
+
 #borderF{
+    padding: 5px;
     border-top: 2px solid #353535;
+}
+
+#borderF div:hover{
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
+}
+
+.testeImg{
+    display: flex;
+    padding: 15px;
+}
+
+#contain img{   
+    max-width: 16px;
+    max-height: 16px;
+    margin-right:10px;
+}
+
+#linkSpace{
+    padding: 8px;
+}
+
+#linkSpace div:hover{
+    background-color: rgb(75, 75, 75) ;
+    border-radius: 10px;
+}
+
+#penultimo{
+    padding: 6px;
+}
+
+#penultimo div:hover{
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
+}
+
+#ultimosL div:hover{
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
 }
