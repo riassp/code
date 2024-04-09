@@ -282,8 +282,7 @@ main{
     bottom: 0px;
     z-index: 10;
     width: 270px;
-    height: 485px;   
-    display: none;
+    height: 485px;
 }
 
 #contain img {
