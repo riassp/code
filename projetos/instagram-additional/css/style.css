@@ -282,7 +282,7 @@ main{
     bottom: 0px;
     z-index: 10;
     width: 270px;
-    height: 480px;   
+    height: 485px;   
     display: none;
 }
 
@@ -290,21 +290,35 @@ main{
     max-width: 17px;
     max-height: 17px;
     padding-right: 10px;
+    padding-left: 10px;
 }
 
 .testeflex{
     display: flex;
-    padding: 19px 19px;
+    padding: 16px 10px;
     align-items: center;
     font-size: 0.9em;
 }
 
+#testePadding{
+    padding: 10px 7px;
+}
+
+.linksFinais{
+    padding: 5px;
+}
+
+#finalPadding{
+    padding: 10px;
+}
+
 .testeflex:hover{
-    background-color: gray;
-    border-radius: 10px;
+    background-color: rgb(58, 57, 57);
+    border-radius: 8px;
 }
 
 #testebordaL{
+    padding: 7px;
     border-top: 6px solid #353535;
     border-bottom: 6px solid #353535;
 }
