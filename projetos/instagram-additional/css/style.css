@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 ::-webkit-scrollbar{
@@ -27,11 +28,6 @@
 
 body{
     background-color:black;
-    color: white;
-}
-
-a{
-    color: white;
 }
 
 aside{
