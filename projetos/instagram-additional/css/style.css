@@ -270,7 +270,6 @@ main{
 }
 
 #dropup{
-  position: relative;
   display: inline-block;
 }
 
@@ -279,7 +278,7 @@ main{
     border-radius: 15px;
     position: absolute;
     min-width: 160px;
-    bottom: 0px;
+    bottom: 60px;
     z-index: 10;
     width: 270px;
     height: 485px;
