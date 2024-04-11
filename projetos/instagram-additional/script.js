@@ -8,12 +8,15 @@ function fall() {
     }
 };
 
+
 document.body.style.backgroundColor = 'black';
 function tema() {
     if(document.body.style.backgroundColor === 'black'){
         document.body.style.backgroundColor = 'white';
-        document.body.style.color = 'black';
-    } else{
+        document.querySelectorAll('a').style.color = 'black';
+        
+
+    }else{
         document.body.style.backgroundColor = 'black';
         document.body.style.color = 'white';
     }
