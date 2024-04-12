@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 ::-webkit-scrollbar{
@@ -27,14 +28,6 @@
 
 body{
     background-color:black;
-}
-
-a{
-    color: white;
-}
-
-p{
-    color: white;
 }
 
 aside{
@@ -197,10 +190,9 @@ main{
     text-align:center;
     width: 100px;
     height: 108px;
-    text-decoration: none;
 }
 
-#novo > p{
+#novo p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8em;
 }
