@@ -3,7 +3,28 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-color:black;
     color: white;
+}
+
+body.white{
+    background-color: white;
+    color: black;
+}
+
+a{
+    color: white;
+}
+
+a.white{
+    color: black;
+}
+
+*.white{
+    color:black;
 }
 
 ::-webkit-scrollbar{
@@ -24,10 +45,6 @@
 
  ::-webkit-scrollbar-thumb:hover{
     background:#999;
-}
-
-body{
-    background-color:black;
 }
 
 aside{
