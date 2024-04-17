@@ -10,11 +10,8 @@ function fall(){
 
 
 function tema() {
-    const body = document.body;
-    body.classList.toggle("white");
-    // if(document.body.classList.contains("white"))
-    //     document.body.classList.remove("white");
-    // else
-    //     document.body.classList.add("white");
-
+     if(document.body.classList.contains("white"))
+         document.body.classList.remove("white");
+     else
+         document.body.classList.add("white");
 };
