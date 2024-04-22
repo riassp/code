@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 *{
     margin: 0;
@@ -29,6 +30,10 @@ p{
     color: black;
 }
 
+.white #casaI{
+    background-image:url(../images/casa2.png);
+}
+
 ::-webkit-scrollbar{
     width:11px;
 }
@@ -54,14 +59,13 @@ aside{
     position: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
-    width:17%;
-    border-right: 1px solid rgba(255, 255, 255, 0.171);
+    width: 19%;
     height: 100vh;
+    border-right: 1px solid rgba(255, 255, 255, 0.171);
 }
 
 #Lcenter{
     width: 85%;
-    /* width: 210px; */
     height: 100vh;
     margin:auto;
     position: relative;
@@ -88,14 +92,15 @@ main{
     display: flex;
 }
 
-#CHnosize{
-    margin-bottom: 0px;
-    padding-bottom:5px
-}
-
 .lateral2:hover{
     background-color: rgb(22, 22, 22);
     border-radius: 8px;
+    width: 100%;
+}
+
+#CHnosize{
+    margin-bottom: 0px;
+    padding-bottom:5px
 }
 
 .lateral2:hover img{
@@ -109,8 +114,10 @@ main{
 
 
 .imagem{
+    height: 25px;
     max-height:25px;
     max-width: 25px;
+    width: 25px;
 }
 
 
@@ -118,11 +125,10 @@ main{
     max-height: 20px;
     position:absolute;
     bottom: 0px;
-    width: 203.69px;
 }
 
 #afastado:hover{
-    background-color: rgb(22, 22, 22) ;
+    background-color: rgb(22, 22, 22);
     width: 100%;
 }
 
@@ -245,6 +251,7 @@ main{
 #LinksC{
     min-width: 407px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 #linksSparte a{
@@ -342,4 +349,15 @@ main{
 
 #testebordaF{
     border-top: 2px solid #353535;
+}
+
+#testeImagem{
+    background-image: url(../images/casa.png);
+    background-repeat: no-repeat;
+}
+
+#casaI{
+    background-image: url(../images/casa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
