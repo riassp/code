@@ -30,8 +30,10 @@ p{
     color: black;
 }
 
-.white #casaI{
-    background-image:url(../images/casa2.png);
+#casaI{
+    background-image: url(../images/casa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 ::-webkit-scrollbar{
@@ -349,15 +351,4 @@ main{
 
 #testebordaF{
     border-top: 2px solid #353535;
-}
-
-#testeImagem{
-    background-image: url(../images/casa.png);
-    background-repeat: no-repeat;
-}
-
-#casaI{
-    background-image: url(../images/casa.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
