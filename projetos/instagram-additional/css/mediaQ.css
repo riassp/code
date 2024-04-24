@@ -7,7 +7,7 @@ Desktop:992px até 1200px
 Grandes telas: acima de 1200px */
 
 
-@media screen and (max-width: 1265px ) {
+@media screen and (max-width: 1264px ) {
 
     .Icons{
         display: none;
@@ -59,6 +59,11 @@ Grandes telas: acima de 1200px */
 
     aside{
         width: 73px;
+    }
+
+    #casaI{
+        width: 25px;
+        height: 25px;
     }
     
 }
