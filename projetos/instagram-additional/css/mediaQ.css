@@ -61,6 +61,33 @@ Grandes telas: acima de 1200px */
     aside{
         width: 73px;
     }
+
+    .white #logoI{
+        display: none;
+    }
+
+    .white #logoI2{
+        display: block;
+        position: absolute;
+        top: 5%;
+        left: -8%;
+        transform: translateY(-6%);
+        width: 30px;
+        padding-top: 12px;
+        padding-left: 8px;
+        padding-right: 10px;
+        padding-bottom: 12px;
+    }
+
+    #logoI2{
+        display: none;
+    }
+
+    #logoI2:hover{
+        border-radius: 8px;
+        background-color:#F4F4F4;
+    }
+
 }
     
 
