@@ -247,7 +247,7 @@ main{
     margin: auto;
     height: 100vh;
     width: 85%;
-    max-width: 800px;
+    max-width: 920px;
 }
 .imgPeq{
     max-width: 12px;
@@ -332,6 +332,10 @@ main{
     z-index: 10;
     width: 270px;
     height: 485px;
+}
+
+.white #contain{
+    box-shadow: 1px 1px 17px 2px rgba(0, 0, 0, 0.13);
 }
 
 .white #contain{
