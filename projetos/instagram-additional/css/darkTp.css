@@ -172,6 +172,7 @@ main{
 }
 
 #button2{
+    display:inline-block;
     margin-left: 5px;
     margin-right: 10px;
 }
@@ -379,8 +380,8 @@ main{
 }
 
 .white #testebordaL{
-    border-top-color: rgb(207, 207, 207);
-    border-bottom-color: rgb(207, 207, 207);
+    border-top-color: #F4F4F4;
+    border-bottom-color: #F4F4F4;
 }
 
 #testebordaF{
@@ -388,7 +389,7 @@ main{
 }
 
 .white #testebordaF{
-    border-top-color: rgb(207, 207, 207);
+    border-top-color: #F4F4F4 ;
 }
 
 a{
@@ -412,14 +413,14 @@ p{
     color: black;
 }
 
+.white .whiteI{
+    display: none;
+}
+
 .blackI{
     display: none;
 }
 
 .white .blackI{
-    display: block;
-}
-
-.white .whiteI{
-    display: none;
+    display: inline-block;
 }
