@@ -16,7 +16,8 @@ Grandes telas: acima de 1200px */
     #logoI{
         display: block;
         position: absolute;
-        top: 6%;
+        top: 5%;
+        left: -8%;
         transform: translateY(-6%);
         width: 30px;
         padding-top: 12px;
@@ -61,11 +62,31 @@ Grandes telas: acima de 1200px */
         width: 73px;
     }
 
-    #casaI{
-        width: 25px;
-        height: 25px;
+    .white #logoI{
+        display: none;
     }
-    
+
+    #logoI2{
+        display: none;
+        position: absolute;
+        top: 5%;
+        left: -8%;
+        transform: translateY(-6%);
+        width: 30px;
+        padding-top: 12px;
+        padding-left: 8px;
+        padding-right: 10px;
+        padding-bottom: 12px;
+    }
+
+    .white #logoI2{
+        display: block;
+    }
+
+    .white #logoI2:hover{
+        border-radius: 8px;
+        background-color:#F2F2F2;
+    }
 }
     
 
