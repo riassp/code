@@ -309,6 +309,10 @@ main{
     font-size: 1.5em;
 }
 
+#logoI2{
+    display: none;
+}
+
 #imagensRhuan{
     width: auto;
     height: auto;
@@ -321,6 +325,7 @@ main{
 
 #dropup{
   display: inline-block;
+  z-index: 100;
 }
 
 #contain{
@@ -329,13 +334,12 @@ main{
     position: absolute;
     min-width: 160px;
     bottom: 60px;
-    z-index: 10;
     width: 270px;
     height: 485px;
 }
 
 .white #contain{
-    box-shadow: 1px 1px 17px 2px rgba(0, 0, 0, 0.13);
+    box-shadow: 1px 1px 17px 2px rgba(0, 0, 0, 0.075);
 }
 
 .white #contain{
