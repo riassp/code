@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1265px){
+    aside{
+        width: 73px;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #logoImg{
+        display: block;
+    }
+
+    .lateral p{
+        display: none;
+    }
+
+    .lateral{
+        width: 30px;
+    }
+}
