@@ -24,6 +24,7 @@ a{
     height: 47px;
     display: flex;
     align-items: center;
+    transition: 0.5s ease-in-out;
 }
 
 .lateral img{
@@ -40,7 +41,7 @@ a{
 
 .lateral:hover img{
     scale: 1.1;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
 }
 
 article img{
@@ -63,6 +64,31 @@ article img{
     margin-bottom: 90px;
 }
 
+#logoImg{
+    width: 23px;
+    height: 23px;
+    display: none;
+    top: 50%;
+    left: 10%;
+    transform: translate(5%, 100%);
+    margin-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+#logoImg:hover{
+    background-color:rgb(243, 243, 243);
+    border-radius: 7px;
+}
+
+#logoImg:hover img{
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
 #linkDM{
     position:absolute;
     bottom: 0;
@@ -71,10 +97,4 @@ article img{
 #ftPerfil{
     border-radius: 100%;
     border: 2px solid black;
-}
-
-#logoImg{
-    width: 23px;
-    height: 23px;
-    display: none;
 }

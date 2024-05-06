@@ -17,7 +17,11 @@
         display: none;
     }
 
-    .lateral{
-        width: 30px;
+    .lateral:hover{
+        width: 77%;
+    }
+
+    #div1{
+        width: 65%;
     }
 }
