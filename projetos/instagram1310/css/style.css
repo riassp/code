@@ -75,7 +75,7 @@ article img{
     left: 10%;
     transform: translate(5%, 100%);
     font-size: 1.5em;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 #logoImg{
@@ -214,4 +214,94 @@ button:hover{
     width: 33%;
     max-width: 100%;
     height: auto ;
+}
+
+#dropup{
+    position: absolute;
+    bottom: 58px;
+}
+
+#contain{
+    height: 494px;
+    width: 266px;
+    border-radius: 20px;
+    box-shadow: -1px 7px 20px 1px rgba(0, 0, 0, 0.116);
+    background-color: white;
+}
+
+#contain img{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#contain div{
+    height: 55px;
+    align-items: center;
+    display: flex;
+}
+
+#Lpart1{
+    padding: 10px;
+    padding-right: 15px;
+}
+
+#Lpart1 div{
+    height: 50px;
+    padding-left: 8px;
+}
+
+#Lpart1 div:hover{
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    width: 100%;
+}
+
+#Lpart2{
+    padding: 8px;
+    padding-right: 15px;
+    border-top: 5px solid rgb(241, 241, 241);
+    border-bottom: 5px solid rgb(241, 241, 241);
+}
+
+
+#Lpart2 div{
+    padding-left: 8px;
+}
+
+#Lpart2 div:hover{
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    width: 100%;
+}
+
+#Lpart3{
+    padding:5px;
+    padding-right: 20px;
+}
+
+#Lpart3 div{
+    padding-left: 15px;
+}
+
+#Lpart3 div:hover{
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    width: 100%;
+}
+
+#Lpart4{
+    border-top: 1px solid rgb(241, 241, 241);
+    padding: 8px;
+    padding-right: 20px;
+}
+
+#Lpart4 div{
+    padding-left: 15px;
+}
+
+#Lpart4 div:hover{
+    background-color: rgb(241, 241, 241);
+    width:100%;
+    border-radius: 10px;
 }
