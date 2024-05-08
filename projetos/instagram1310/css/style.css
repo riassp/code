@@ -123,11 +123,11 @@ article img{
 #part1{
     padding-top: 40px;
     height: 370px;
-    border-bottom: 1px solid rgb(212, 212, 212);
-    max-width: 930px;
+    max-width: 953px;
 }
 
 #textos{
+    max-width: 405px;
     float: left;
     height: 25%;
 }
@@ -138,7 +138,7 @@ article img{
 }
 
 #texto1 span{
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 #texto2{
@@ -163,16 +163,15 @@ button:hover{
     position: relative;
     top: 50%;
     right: 100%;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 #linksMid{
-    width: 950px;
     height: 50px;
+    border-top: 1px solid rgb(212, 212, 212);
     font-size: 0.8em;
     display: flex;
     justify-content: center;
-    max-width: 950px;
 }
 
 #linksMid img{
@@ -183,13 +182,20 @@ button:hover{
 
 #linksMid span{
     padding-top:16px;
-    margin-right: 60px;
     display: flex;
     align-items: center;
 }
 
+#linksMid a{
+    margin-right: 70px;
+}
+
 #bordaT{
     border-top: 1px solid black;
+}
+
+.cinza{
+    font-weight:600;
 }
 
 .cinza p{
@@ -200,13 +206,12 @@ button:hover{
     color: gray;
 }
 
-#div3 img{
-    width: 309px;
-    height: 309px;
+#div3{
+    width: 100%;
 }
 
-#div3{
-    width: 940px;
-    max-width: 940px ;
-    text-align: center;
+#div3 img{
+    width: 33%;
+    max-width: 100%;
+    height: auto ;
 }
