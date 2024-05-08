@@ -2,7 +2,15 @@
 
 @media screen and (max-width: 1265px){
     aside{
-        width: 73px;
+        width: 72px;
+    }
+
+    main{
+        width: 94.2%;
+    }
+
+    #div2{
+        width: 85%;
     }
 
     #logo{
