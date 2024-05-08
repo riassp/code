@@ -32,4 +32,12 @@
     #div1{
         width: 65%;
     }
+
+    #contain{
+        margin-left: 55px;
+    }
+
+    #dropup{
+        bottom: 16px;
+    }
 }
