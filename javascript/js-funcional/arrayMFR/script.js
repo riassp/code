@@ -104,7 +104,7 @@ console.log(total);
 
 
 
-// Separação de INFO
+// Separação de infos
 
 /* 
 
