@@ -1,0 +1,433 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+::-webkit-scrollbar{
+    width:11px;
+}
+
+::-webkit-scrollbar-track{
+    background:#222;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 10px;
+    background:#888;
+    border-radius: 100px;
+    border: 1px solid #222;
+}
+
+ ::-webkit-scrollbar-thumb:hover{
+    background:#999;
+}
+
+aside{
+    float:left;
+    position: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 19%;
+    height: 100vh;
+    border-right: 1px solid rgba(255, 255, 255, 0.171);
+}
+
+.white aside{
+    border-right: 1px solid rgb(204, 204, 204);
+}
+
+#Lcenter{
+    width: 85%;
+    height: 100vh;
+    margin:auto;
+    position: relative;
+}
+
+#Lcenter a{
+    text-decoration: none;
+}
+
+main{
+    height: 100vh;
+    width: 83%;
+    overflow-y: auto;
+    float:right;
+}
+
+
+.lateral2{
+    margin-bottom: 7px;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-bottom: 12px;
+    display: flex;
+}
+
+.lateral2:hover{
+    background-color: rgb(22, 22, 22);
+    border-radius: 7px;
+    width: 100%;
+}
+
+.white .lateral2:hover{
+    background-color: #F2F2F2;
+}
+
+#CHnosize{
+    margin-bottom: 0px;
+    padding-bottom:10px;
+}
+
+.lateral2:hover .hoverImg{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.hoverImg{
+    transition: 0.2s;
+}
+
+
+.lateral2 > *{
+    margin-right: 15px;
+}
+
+
+.imagem{
+    height: 25px;
+    width: 25px;
+}
+
+
+#afastado{
+    max-height: 20px;
+    position:absolute;
+    bottom: 0px;
+}
+
+#afastado:hover{
+    background-color: rgb(22, 22, 22);
+    border-radius: 7px;
+    width: 100%;
+}
+
+.white #afastado:hover{
+    background-color: #F2F2F2;
+}
+
+#espaco{
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+}
+
+#fotoPerfilLateral{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid white;
+}
+
+.white #fotoPerfilLateral{
+    border: 2px solid black;
+}
+
+#bola{
+    float: left;
+    position: relative;
+    margin: auto;
+    top: 7%;
+    width: 150px;
+    height: 150px;
+    background-image: url(../fotosRhuan/ftRhuan.jpg);
+    border-radius: 100%;
+}
+
+#fulltexto{
+    transform: translate(12%, 18%);
+    min-width: 560px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fulltexto a{
+    text-decoration: none;
+}
+
+#nomePerfil{
+    font-size: 1.2em;
+}
+
+#button{
+  margin-left: 20px;
+}
+
+#button2{
+    display:inline-block;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.buttons{
+    display:inline-block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.Pbuttons{
+    background-color: rgb(53, 53, 53);
+    border-radius: 6px;
+    padding: 6px 15px;
+}
+
+.Pbuttons:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+.white .Pbuttons{
+    background-color:#F2F2F2;
+    border-radius: 6px;
+    padding: 6px 15px;
+}
+
+.white .Pbuttons:hover{
+    background-color: #a8a8a8;
+}
+
+.espacoTextos{
+    margin-bottom: 22px;
+}
+
+.testeDisplay{
+    margin-right: 35px;
+    display: inline-block;
+}
+
+#texto3{
+    font-size: 0.9em;
+}
+
+#novo{
+    position: relative;
+    bottom:-18% ;
+    left: -7%;
+    text-align:center;
+    width: 100px;
+    height: 108px;
+}
+
+.white #novo{
+    width: 89px;
+}
+
+#novo p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+#fEtexto{
+    margin: auto;
+    height: 58%;
+    width: 85%;
+    max-height: 387px;
+    max-width: 600px;
+}
+
+#tudoCentro{
+    margin: auto;
+    height: 100vh;
+    width: 85%;
+    max-width: 920px;
+}
+.imgPeq{
+    max-width: 12px;
+    max-height: 12px;
+}
+
+#linksSparte{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+    border-top: 1px solid rgba(255, 255, 255, 0.137);
+}
+
+.white #linksSparte{
+    border-top: 1px solid rgb(192, 192, 192);
+}
+
+#LinksC{
+    min-width: 407px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#linksSparte a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.espacoL{
+    padding-top: 15px;
+    margin-right: 60px;
+}
+
+#Borda{
+    border-top: 1px solid white;
+}
+
+.white #Borda{
+    border-top: 1px solid black;
+}
+
+.letraC{
+    color: gray;
+}
+
+.white .letraC{
+    color: gray ;
+}
+
+#logoI{
+    display:none;
+}
+
+#logoIP{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translateY(-6%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1.5em;
+}
+
+#logoI2{
+    display: none;
+}
+
+#imagensRhuan{
+    width: auto;
+    height: auto;
+}
+
+#imagensRhuan img{
+    max-width: 33%;
+    height: auto;
+}
+
+#dropup{
+  display: inline-block;
+  z-index: 100;
+}
+
+#contain{
+    background-color:#262626;
+    border-radius: 15px;
+    position: absolute;
+    min-width: 160px;
+    bottom: 60px;
+    width: 270px;
+    height: 485px;
+}
+
+.white #contain{
+    box-shadow: 1px 1px 17px 2px rgba(0, 0, 0, 0.075);
+}
+
+.white #contain{
+    background-color: white;
+}
+
+#contain img {
+    max-width: 17px;
+    max-height: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.testeflex{
+    display: flex;
+    padding: 16px 10px;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+#testePadding{
+    padding: 10px 7px;
+}
+
+.linksFinais{
+    padding: 5px;
+}
+
+#finalPadding{
+    padding: 10px;
+}
+
+.testeflex:hover{
+    background-color: rgb(58, 57, 57);
+    border-radius: 8px;
+}
+
+.white .testeflex:hover{
+    background-color:rgb(233, 233, 233);
+}
+
+#testebordaL{
+    padding: 7px;
+    border-top: 6px solid #353535;
+    border-bottom: 6px solid #353535;
+}
+
+.white #testebordaL{
+    border-top-color: #F4F4F4;
+    border-bottom-color: #F4F4F4;
+}
+
+#testebordaF{
+    border-top: 2px solid #353535;
+}
+
+.white #testebordaF{
+    border-top-color: #F4F4F4 ;
+}
+
+a{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.white{
+    background-color: white;
+
+}
+
+.white a{
+    color: black;
+}
+
+.white p{
+    color: black;
+}
+
+.white .whiteI{
+    display: none;
+}
+
+.blackI{
+    display: none;
+}
+
+.white .blackI{
+    display: inline-block;
+}

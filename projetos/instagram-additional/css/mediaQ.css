@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet:768px até 992px
+Desktop:992px até 1200px
+Grandes telas: acima de 1200px */
+
+
+@media screen and (max-width: 1264px ) {
+
+    .Icons{
+        display: none;
+    }
+
+    #logoI{
+        display: block;
+        position: absolute;
+        top: 5%;
+        left: -8%;
+        transform: translateY(-6%);
+        width: 30px;
+        padding-top: 12px;
+        padding-left: 8px;
+        padding-right: 10px;
+        padding-bottom: 12px;
+    }
+
+    #logoI:hover{
+        border-radius: 8px;
+        background-color: rgb(22, 22, 22);
+    }
+
+    #Lcenter{
+        margin: 0 auto;
+        width: 50%;
+        height: 100vh;
+    }
+
+    .lateral2{
+        margin-bottom: 7px;
+        padding-top: 12px;
+        padding-left: 8px;
+        padding-right: 5px;
+        padding-bottom: 12px;
+        width: 30px;
+    }
+
+    .lateral2:hover{
+        width: 30px;
+    }
+
+    #afastado{
+        width: 30px;
+    }
+
+    main{
+        width: 89vw;
+    }
+
+    aside{
+        width: 73px;
+    }
+
+    .white #logoI{
+        display: none;
+    }
+
+    .white #logoI2{
+        display: block;
+        position: absolute;
+        top: 5%;
+        left: -8%;
+        transform: translateY(-6%);
+        width: 30px;
+        padding-top: 12px;
+        padding-left: 8px;
+        padding-right: 10px;
+        padding-bottom: 12px;
+    }
+
+    #logoI2{
+        display: none;
+    }
+
+    #logoI2:hover{
+        border-radius: 8px;
+        background-color:#F4F4F4;
+    }
+
+}
+    
+

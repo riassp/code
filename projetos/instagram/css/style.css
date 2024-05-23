@@ -53,10 +53,11 @@ aside{
 }
 
 main{
-    float:right;
-    position: relative;
     height: 100vh;
     width: 83%;
+    overflow-y: auto;
+    float:right;
+    position: relative;
 }
 
 
@@ -89,11 +90,12 @@ main{
 
 
 .imagem{
-    max-height:23px;
-    max-width: 23px;
+    max-height:25px;
+    max-width: 25px;
 }
 
 #afastado{
+    max-height: 20px;
     position:absolute;
     bottom: 0px;
     width: 203.69px;
@@ -124,13 +126,13 @@ main{
     top: 7%;
     width: 150px;
     height: 150px;
-    background-image: url(../fotos/ftRhuan.jpg);
+    background-image: url(../fotosRhuan/ftRhuan.jpg);
     border-radius: 100%;
 }
 
 #fulltexto{
-    transform: translate(16%, 18%);
-    min-width: 550px;
+    transform: translate(12%, 18%);
+    min-width: 560px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -183,9 +185,11 @@ main{
 
 #novo{
     position: relative;
-    top: 60%;
-    right:23%;
+    bottom:-18% ;
+    left: -7%;
     text-align:center;
+    width: 100px;
+    height: 108px;
     text-decoration: none;
 }
 
@@ -198,14 +202,15 @@ main{
     margin: auto;
     height: 58%;
     width: 85%;
-    max-width: 815px;
+    max-height: 387px;
+    max-width: 600px;
 }
 
 #tudoCentro{
     margin: auto;
     height: 100vh;
     width: 85%;
-    max-width: 960px;
+    max-width: 800px;
 }
 .imgPeq{
     max-width: 12px;
@@ -215,22 +220,12 @@ main{
 #linksSparte{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8em;
-    width: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.137);
-    height: auto;
-    margin: auto;
-}
-
-.primeirasImgs{
-    display: inline;
-    margin-top: 20px;
 }
 
 #LinksC{
-    width:30vw;
-    height: auto;
-    margin:auto;
     min-width: 407px;
+    margin-bottom: 15px;
 }
 
 #linksSparte a{
@@ -251,22 +246,6 @@ main{
     color: gray;
 }
 
-#imagensUltimato img{
-    width:310px;
-    height:310px;
-}
-
-#imagensUltimato2 img{
-    width: 310px;
-    height: 310px;
-}
-
-#imagensUltimatoM{
-    height: auto;
-    width: 80%;
-    margin: auto;
-}
-
 #logoI{
     display:none;
 }
@@ -278,4 +257,14 @@ main{
     transform: translateY(-6%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 1.5em;
+}
+
+#imagensRhuan{
+    width: auto;
+    height: auto;
+}
+
+#imagensRhuan img{
+    max-width: 33%;
+    height: auto;
 }

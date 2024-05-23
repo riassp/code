@@ -43,8 +43,8 @@ function subtração(numero1, numero2){
 
 }
 
-soma(1450, 50)
-subtração(1000, 7)
+soma(1450, 50);
+subtração(1000, 7);
 
 */
 
@@ -55,8 +55,8 @@ Função Return.
 Return vai retornar o valor para quem o chamou.
 
 function soma(numero1, numero2){
-    const somaDosNumeros = numero1 + numero2
-    return somaDosNumeros
+    const somaDosNumeros = numero1 + numero2;
+    return somaDosNumeros;
 }
 
 const meusNumeros = soma(4, 7)

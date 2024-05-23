@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1265px){
+    aside{
+        width: 72px;
+    }
+
+    main{
+        width: 94.2%;
+    }
+
+    #div2{
+        width: 85%;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #logoImg{
+        display: block;
+    }
+
+    .lateral p{
+        display: none;
+    }
+
+    .lateral:hover{
+        width: 77%;
+    }
+
+    #div1{
+        width: 65%;
+    }
+
+    #contain{
+        margin-left: 55px;
+    }
+
+    #dropup{
+        bottom: 16px;
+    }
+}

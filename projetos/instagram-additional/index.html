@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/darkTp.css">
+    <link rel="stylesheet" href="css/mediaQ.css"/>
+    <script defer src="script.js"></script>
+    <title>Instagram</title>
+  </head>
+  <body>
+     <aside>
+      <nav id="Lcenter">
+        <div id="espaco"></div>
+        <a href="#">
+          <article>
+            <p class="Icons" id="logoIP">Instagram</p>
+            <img
+              src="images/instagramlogo2.png"alt="Logo do instagram"
+              class="imagem lateral2" id="logoI"
+              />
+              <img src="images/instagramlogo.png" alt="logo do instagram" class="imagem blackI" id="logoI2">
+          </article>
+        </a>
+         <a href="#">
+          <div class="lateral2">
+            <img src="images/casa.png" alt="página inicial" class="imagem whiteI">
+            <img src="images/casa2.png" alt="página inicial" class="imagem blackI">
+            <p class="Icons">Página Inicial</p>
+          </div>
+        </a> 
+        <a href="#">
+          <div class="lateral2">
+            <img src="images/search.png" alt="procurar" class="imagem whiteI">
+            <img src="images/search2.png" alt="procurar" class="imagem blackI">
+            <p class="Icons">Pesquisa</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="lateral2">
+            <img src="images/compass.png" alt="explorar" class="imagem whiteI">
+            <img src="images/compass2.png" alt="explorar" class="imagem blackI">
+            <p class="Icons">Explorar</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="lateral2">
+            <img src="images/video.png" alt="reels" class="imagem whiteI">
+            <img src="images/video2.png" alt="reels" class="imagem blackI">
+            <p class="Icons">Reels</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="lateral2">
+            <img src="images/messenger.png" alt="mensagens" class="imagem whiteI">
+            <img src="images/messenger2.png" alt="mensagens" class="imagem blackI">
+            <p class="Icons">Mensagens</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="lateral2">
+            <img src="images/gostar.png" alt="notificações" class="imagem whiteI">
+            <img src="images/gostar2.png" alt="notificações" class="imagem blackI">
+            <p class="Icons">Notificações</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="lateral2">
+            <img src="images/postagem.png" alt="criar" class="imagem whiteI">
+            <img src="images/postagem2.png" alt="criar" class="imagem blackI">
+            <p class="Icons">Criar</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="lateral2"  id="CHnosize">
+            <img src="fotosRhuan/ftRhuan.jpg" alt="foto do rhuan" id="fotoPerfilLateral">
+            <p class="Icons"><strong>Perfil</strong></p>
+          </div>
+        </a>
+      
+
+         <nav id="dropup">
+          <section id="contain">
+            <a href="#">
+              <section id="testePadding">
+                <div class="testeflex">
+                  <img src="imgsLmais/gear.png" alt="engrenagem" class="whiteI">
+                  <img src="imgsLmais/gear2.png" alt="engrenagem" class="blackI">
+                  <p>Configurações</p>
+                </div>
+            </a>
+                            <a href="#">
+                <div class="testeflex">
+                  <img src="imgsLmais/diagram.png" alt="sua atividade no instagram" class="whiteI">
+                  <img src="imgsLmais/diagram2.png" alt="sua atividada no instagram" class="blackI">
+                  <p>Sua atividade</p>
+                </div>
+                            </a>
+                            <a href="#">
+                <div class="testeflex">
+                  <img src="imgsLmais/marcaPg.png" alt="marca página" class="whiteI">
+                  <img src="imgsLmais/marcaPg2.png" alt="marca página" class="blackI">
+                  <p>Salvos</p>
+                </div>
+                            </a>
+                            <a href="#" onclick="tema()">
+                <div class="testeflex">
+                  <img src="imgsLmais/moon.png" alt="Lua" class="whiteI">
+                  <img src="imgsLmais/sunWhite2.png" alt="sol" class="blackI">
+                  <p>Altenar exibição</p>
+                </div>
+                            </a>
+                            <a href="#">
+                <div class="testeflex">
+                  <img src="imgsLmais/exclamation-mark.png" alt="exclamação em um balão" class="whiteI">
+                  <img src="imgsLmais/exclamation-mark2.png" alt="exclamação em um balão" class="blackI">
+                  <p>Relatar um problema</p>
+                </div>
+                            </a>
+              </section>
+              <div id="testebordaL">
+                <a href="#">
+              <div class="testeflex">
+                <img src="imgsLmais/threads.png" alt="threads do instagram" class="whiteI">
+                <img src="imgsLmais/threads2.png" alt="threads do instagram" class="blackI">
+                <p>Threads</p>
+              </div>
+            </a>
+              </div>
+            
+              <section class="linksFinais">
+                <a href="#">
+                 <div class="testeflex">
+                  <p>Trocar de conta</p>
+                 </div>
+                </a>
+              </section>
+              <div id="testebordaF"></div>
+                 <section class="linksFinais">
+                   <a href="#">
+                    <div class="testeflex">
+                      <p>Sair</p>
+                    </div>
+                    </a>
+                 </section>
+          </section>
+        </nav>
+
+        <a href="#" onclick="fall()">               <!--Dropup Menu Click-->
+            <div id="afastado" class="lateral2" style="padding-right: 0;">
+              <img src="images/hamburguerlist.png" alt="menu hamburguer" class="imagem whiteI">
+              <img src="images/hamburguerlist2.png" alt="menu hamburguer" class="imagem blackI">
+              <p class="Icons">Mais</p>
+            </div>
+        </a>
+      </nav>
+    </aside>
+
+     <main>
+      <div id="tudoCentro">
+        <section id="fEtexto">
+          <abbr title="Alterar foto do perfil">
+            <a href="#">
+              <article id="bola"></article>
+            </a>
+          </abbr>
+          <div id="fulltexto">
+            <div id="texto1" class="espacoTextos">
+              <span id="nomePerfil"><a href="#">rhuan_lino</a></span>
+              <a href="#"
+                ><div id="button" class="buttons">
+                  <p class="Pbuttons">Editar perfil</p>
+                </div></a
+              >
+              <a href="#"
+                ><div class="buttons" id="button2">
+                  <p class="Pbuttons">Itens Arquivados</p>
+                </div></a
+              >
+              <a href="#">
+                <img src="images/gear.png" alt="engrenagem" class="imagem whiteI"/>
+                <img src="images/gear2.png" alt="engrenagem" class="imagem blackI">
+              </a>
+            </div>
+            <div id="texto2" class="espacoTextos">
+              <article class="testeDisplay">
+                <p><strong>28</strong> publicações</p>
+              </article>
+              <article class="testeDisplay">
+                <a href="#">
+                  <p><strong>65</strong> seguidores</p>
+                </a>
+              </article>
+              <article class="testeDisplay">
+                <a href="#">
+                  <p><strong>84</strong> seguindo</p>
+                </a>
+              </article>
+            </div>
+            <div id="texto3">
+              <p><strong>R.</strong></p>
+              <p>Niterói-RJ</p>
+              <p>Irmão de pet(billy)🐶</p>
+            </div>
+          </div>
+           <a href="#" style="text-decoration: none;">
+             <div id="novo">
+              <abbr title="Ícone de mais"
+                ><img src="images/novo.png" alt="icone de novo" class="whiteI"
+              />
+            <img src="images/whiteNew.png" alt="novo icone" class="blackI">
+            </abbr>
+              <p>Novo</p>
+              </div>
+           </a> 
+        </section>
+
+        <div id="linksSparte">
+          <div id="LinksC">
+              <a href="#" class="espacoL" id="Borda">
+                  <p> <img
+                    src="images/grid-3x3_1.png"
+                    alt="grade3x3"
+                    class="imgPeq whiteI"/>
+                    <img src="images/grid-2.png" alt="grade3x3" class="blackI imgPeq"> 
+                    PUBLICAÇÕES</p>
+              </a>
+              <a href="#" class="espacoL">
+                  <p class="letraC">
+                    <img
+                      src="images/marca-paginas.png"
+                      alt="Salvos"
+                      class="imgPeq whiteI"/>
+                      <img src="images/marca-paginas2.png" alt="Salvos" class="imgPeq blackI"> 
+                    SALVOS</p>
+                      </a>
+                        <a href="#">
+                <p class="letraC">
+                  <img src="images/tag.png" alt="marcados" class="imgPeq whiteI"/>
+                  <img src="images/tag2.png" alt="marcados" class="imgPeq blackI">
+                  MARCADOS</p>
+                        </a>
+        </div>
+
+          <div id="imagensRhuan">
+            <img src="fotosRhuan/rhuanDirigindosendomenordeIdade.jpg" alt="Rhuan dirigindo">
+            <img src="fotosRhuan/rhuaneBilly.jpg" alt="rhuan com billy">
+            <img src="fotosRhuan/rhuaneBilly2.jpg" alt="rhuan com billy 2">
+            <img src="fotosRhuan/rhuanKatchau.jpg" alt="rhuan com o katchau">
+            <img src="fotosRhuan/rhuanPiscina.jpg" alt="rhuan na piscina">
+            <img src="fotosRhuan/rhuanPraia.jpg" alt="rhuan na praia">
+          </div> 
+        
+      </div> 
+    </div>
+
+  </main>
+  </body>
+</html>
