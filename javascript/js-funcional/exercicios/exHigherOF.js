@@ -1,4 +1,5 @@
 /* Neste exemplo, executarFuncao é uma função de alta ordem porque aceita uma função (dizerOla) como argumento.
+
 const executarFuncao = (funcao) => {
     return funcao();
 }
@@ -8,6 +9,7 @@ const dizerOla = () => {
 }
   
 console.log(executarFuncao(dizerOla)); // Saída: "Olá, mundo!"
+
 */
 
 
@@ -28,19 +30,32 @@ console.log(executarFuncao(dizerOla)); // Saída: "Olá, mundo!"
     }
     return "Leia logada com sucesso!"
   }
+  
 */
 
-// Forma melhor de fazer isso.
+// tentado.
+/*
 const usuarioLogin = (pessoa) => {
     let array = []
     for (i = 0; i < 90000; i++){
         array.push(i)
     }
-    return `${pessoa} logou com sucesso no sistema!`
+    return `${pessoa} logou com sucesso no sistema!`;
 };
 
-console.log(usuarioLogin('Jake'));
+console.log(usuarioLogin('Jake')); // resultado: Jake logou com sucesso no sistema!
+*/
 
-// Agora, usuarioLogin é uma função de alta ordem, pois recebe uma função (o nome do usuário) como argumento.
+const usuarioLogin = (pessoa, acao) => {
+  let array = []
+  for (i = 0; i < 90000; i++){
+    array.push(i)
+  }
+  return acao(pessoa);
+};
 
+const mensagemDeSucesso = (pessoa) => {
+  return `${pessoa} logou com sucesso no sistema!`;
+};
 
+console.log(usuarioLogin('Jake', mensagemDeSucesso)); // resultado: Jake logou com sucesso no sistema!
