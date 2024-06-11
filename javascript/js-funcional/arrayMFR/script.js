@@ -3,26 +3,26 @@
 
 
 // Teste.
-const pessoas = [
-    { id: 1, nome: "Paulo", idade: 37, profissão: 'Programador', salário: '10k' },
-    { id: 2, nome: "João", idade: 28, profissão: 'Caminhoneiro', salário: '5k' },
-    { id: 3, nome: "Pedro", idade: 28, profissão: 'Caminhoneiro', salário: '5k' },
-    { id: 4, nome: "Henrique", idade: 25, profissão: 'Designer Full Stack', salário: '10k' },
-    { id: 5, nome: "Julius", idade: 50, profissão: 'Todos', salário: 'infinitoKK' },
-    { id: 6, nome: "Mariana", idade: 28, profissão: 'Marketing Digital', salário: '8k' }
+// const pessoas = [
+//     { id: 1, nome: "Paulo", idade: 37, profissão: 'Programador', salário: '10k' },
+//     { id: 2, nome: "João", idade: 28, profissão: 'Caminhoneiro', salário: '5k' },
+//     { id: 3, nome: "Pedro", idade: 28, profissão: 'Caminhoneiro', salário: '5k' },
+//     { id: 4, nome: "Henrique", idade: 25, profissão: 'Designer Full Stack', salário: '10k' },
+//     { id: 5, nome: "Julius", idade: 50, profissão: 'Todos', salário: 'infinitoKK' },
+//     { id: 6, nome: "Mariana", idade: 28, profissão: 'Marketing Digital', salário: '8k' }
 
-];
-
-
-const naosei = pessoas.filter(a => a.idade === 28);
+// ];
 
 
-const soma = naosei.reduce((contador, valorA) => {
-    const NumberR = parseInt(valorA.salário);
-    return contador + NumberR;
-}, 0);
+// const naosei = pessoas.filter(a => a.idade === 28);
 
-console.log(soma)
+
+// const soma = naosei.reduce((contador, valorA) => {
+//     const NumberR = parseInt(valorA.salário);
+//     return contador + NumberR;
+// }, 0);
+
+// console.log(soma)
 
 
 
@@ -39,8 +39,9 @@ console.log(soma)
 
 // !Todos as manipulações tiveram o array produtos como uso!
 
-/*
-Array usado
+
+//Array usado
+
 const produtos = [
     { id: 1, nome: 'detergente' , valor: 2.00 , categoria: 'limpeza' },
     { id: 2, nome: 'amaciante' , valor: 6.50 , categoria: 'limpeza' },
@@ -48,12 +49,12 @@ const produtos = [
     { id: 4, nome: 'queijo' , valor: 7.00 , categoria: 'alimento' },
     { id: 5, nome: 'leite' , valor: 2.20 , categoria: 'alimento' }
 ];
-*/
 
 
-/*
 
-MAP
+
+
+//MAP
 
 const ids = produtos.map(produto => produto.id);
 const nomes = produtos.map(produto => produto.nome);
@@ -62,8 +63,8 @@ const numeros = [1,2,3,4,5,6,7,8,9,10];
 
 const duplicados = numeros.map(x => x *2);
 
-console.log(duplicados)
-*/
+console.log(duplicados);
+
 
 // Separação
 
