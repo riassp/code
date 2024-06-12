@@ -1,0 +1,1 @@
+console.log('Testando node.js no terminal.');
