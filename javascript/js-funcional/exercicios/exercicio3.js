@@ -13,9 +13,8 @@ let studentM = estudantes.map(estudante => { // Média dos alunos.
     media: media
   };
 });
-console.log(studentM);
 
-let 
+console.log(studentM);
 
 // 1. Calcule a média de notas de cada estudante e adicione ao objeto do estudante como uma nova propriedade.
 // 2. Encontre o estudante com a maior média de notas.
