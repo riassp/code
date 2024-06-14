@@ -14,6 +14,22 @@ let studentM = estudantes.map(estudante => { // Média dos alunos.
   };
 });;
 
+let estudanteMaiorMedia = studentM.reduce((maior, estudante) => {
+  return estudante.media > maior.media ? estudante : maior;
+  // se a média do estudante for maior que o estudante com a maior média ele retorna o estudante, se não, retorna o maior.
+});
+
+let estudanteMenorMedia = studentM.reduce((menor, estudante) => {
+  return estudante.media < menor.media ? estudante : menor;
+});
+
+
+let mediaGeral = studentM.reduce((acumulador, estudante) => acumulador + estudante.media, 0) /studentM.length;
+
+console.log(studentM);
+console.log("Estudante com maior média: " , estudanteMaiorMedia.nome);
+console.log("Estudante com menor média: " , estudanteMenorMedia.nome);
+console.log(mediaGeral)
 // 1. Calcule a média de notas de cada estudante e adicione ao objeto do estudante como uma nova propriedade.
 // 2. Encontre o estudante com a maior média de notas.
 // 3. Encontre o estudante com a menor média de notas.
