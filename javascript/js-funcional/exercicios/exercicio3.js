@@ -21,10 +21,11 @@ let estudanteMaiorMedia = studentM.reduce((maior, estudante) => {
 
 let estudanteMenorMedia = studentM.reduce((menor, estudante) => {
   return estudante.media < menor.media ? estudante : menor;
+  //Mesmo de cima.
 });
 
 
-let mediaGeral = studentM.reduce((acumulador, estudante) => acumulador + estudante.media, 0) /studentM.length;
+let mediaGeral = studentM.reduce((acumulador, estudante) => acumulador + estudante.media, 0) /studentM.length; // Média geral de notas.
 
 console.log(studentM);
 console.log("Estudante com maior média: " , estudanteMaiorMedia.nome);
