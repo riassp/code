@@ -1,8 +1,12 @@
 const numbers = [3, 6, 12, 24];
 
-const dobrado = numbers.map(function(num){
-    return num * 2;
+const dobrado = numbers.map(num => {
+    return function(){
+        return num * 2;
+    };
 });
-
-console.log(numbers); // [3, 6, 12, 24]
-console.log(dobrado); // [6, 12, 24, 48]
+const resultados = dobrado.map(func => func());
+console.log(numbers);
+console.log(dobrado);
+console.log(resultados);
+// teste.
